@@ -62,7 +62,7 @@ print(np.mean(y_predict == y_test))
 ''' To get the score
 score = accuracy_score(y_predict, y_test)
 print(score)
-hihihi
+This is a feature of sklearn
 '''
 
 
