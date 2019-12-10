@@ -36,7 +36,7 @@ y_predict = clf.predict(X_test)
 
 score = accuracy_score(y_predict, y_test)
 print(score)
-#score = np.mean(y_predict == y_test)
+score = np.mean(y_predict == y_test)
 
 
 
