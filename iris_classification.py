@@ -36,9 +36,6 @@ y_predict = clf.predict(X_test)
 
 score = accuracy_score(y_predict, y_test)
 print(score)
-score = np.mean(y_predict == y_test)
-
-
 
 ''' Instead of splitting data like above one can also,
 
@@ -54,6 +51,7 @@ clf.fit(X_train, y_train)
 
 y_predict = clf.predict(X_test)
 print(np.mean(y_predict == y_test))
+acc_score = np.mean(y_predict == y_test)
 
 '''
 
