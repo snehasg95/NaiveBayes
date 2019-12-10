@@ -58,7 +58,7 @@ print(np.mean(y_predict == y_test))
 '''
 
 ''' To get the score
-score = accuracy_score(y_predict, y_test)
+score = accuracy_score(y_predict, y_train)
 print(score)
 
 '''
