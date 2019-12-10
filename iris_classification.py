@@ -54,15 +54,13 @@ clf.fit(X_train, y_train)
 
 y_predict = clf.predict(X_test)
 print(np.mean(y_predict == y_test))
-# score = accuracy_score(y_predict, y_test)
-# print(score) 
 
 '''
 
 ''' To get the score
 score = accuracy_score(y_predict, y_test)
 print(score)
-This is a feature of sklearn
+
 '''
 
 
